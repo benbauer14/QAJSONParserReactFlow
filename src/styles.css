@@ -1,0 +1,51 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: inline-block;
+  border: 1px black solid;
+  border-radius: 15px;
+  background-image: linear-gradient(to bottom right, rgb(145, 145, 218), #083659);
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+.nodeInfo{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 5px;
+}
+.btn-group{
+
+  float: right;
+  margin-right: 15px;
+}
+
+path.react-flow__edge-path {
+  stroke-width: 2;
+  background: orange;
+
+}
+path.react-flow__edges {
+  stroke-width: 2;
+  background: orange;
+
+}
+.react-flow__node{
+  background: teal;
+  color: white;
+}
+header{
+  margin: 15px;
+  width: 75vw;
+}
+
+header .form-control {
+  width:25%;
+  margin-right: 15px;
+  display: inline-block;
+}
+
+footer{
+  margin-left: 20px;
+}
+
